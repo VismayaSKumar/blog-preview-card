@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+.box{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    overflow: hidden;
+    width: 320px;
+    border: 1.5px solid black;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.box .learning-box{
+    background-color: hsl(47, 88%, 63%) ;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.content{
+    margin-top: 15px;
+}
+.box svg{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+ h2{
+    font-weight: 1000;
+    padding-bottom: 10px;
+    font-size: 18px;
+    transition: 2s;
+}
+h2:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+.publish{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.description{
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 20px;
+}
+.profile{
+    display: flex;
+    align-items:center;
+}
+.profile img{
+    margin-right: 10px;
+}
+.profile b{
+    font-weight: 800;
+    font-size: 12px;
+}
+.attribution {
+     font-size: 11px;
+     text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 37%;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+        max-width: none;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .box .learning-box {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+
+    .profile img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .profile b {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .box .learning-box {
+        font-size: 9px;
+        padding: 3px 6px;
+    }
+
+    .profile img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .profile b {
+        font-size: 9px;
+    }
+    .attribution {
+        font-size: 9px;
+   }
+    footer {
+        font-size: 9px;
+    }
+}
