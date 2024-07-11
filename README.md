@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]https://www.frontendmentor.io/solutions/css-responsive-blog-preview-card-Qz98UKYeaZ
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/css-responsive-blog-preview-card-Qz98UKYeaZ
+- Live Site URL: https://vismayaskumar.github.io/blog-preview-card/
 
 
 ### Built with
